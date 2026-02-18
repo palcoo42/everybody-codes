@@ -22,6 +22,7 @@ name = "no_01_echoes_of_enigmatus_quest_01_eni_code"
 version = "0.1.0"
 dependencies = [
  "puzzler",
+ "regex",
 ]
 
 [[package]]

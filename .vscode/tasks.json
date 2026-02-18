@@ -13,7 +13,7 @@
 				"$rustc"
 			],
 			"group": "build",
-			"label": "$(play) no_01_echoes_of_enigmatus/01_eni_code",
+			"label": "$(play) No 1: Echoes of Enigmatus / Quest 1: EniCode",
 		},
 		{
 			"type": "cargo",
@@ -29,7 +29,7 @@
 				"$rustc"
 			],
 			"group": "test",
-			"label": "$(play) no_01_echoes_of_enigmatus/01_eni_code",
+			"label": "$(play) No 1: Echoes of Enigmatus / Quest 1: EniCode",
 		}
 	]
 }

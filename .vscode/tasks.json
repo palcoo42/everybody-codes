@@ -1,0 +1,35 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cargo",
+			"command": "run",
+			"args": [
+				"--release",
+				"--package",
+				"no_01_echoes_of_enigmatus_quest_01_eni_code"
+			],
+			"problemMatcher": [
+				"$rustc"
+			],
+			"group": "build",
+			"label": "$(play) no_01_echoes_of_enigmatus/01_eni_code",
+		},
+		{
+			"type": "cargo",
+			"command": "test",
+			"args": [
+				"--release",
+				"--package",
+				"no_01_echoes_of_enigmatus_quest_01_eni_code",
+				"--",
+				"--include-ignored"
+			],
+			"problemMatcher": [
+				"$rustc"
+			],
+			"group": "test",
+			"label": "$(play) no_01_echoes_of_enigmatus/01_eni_code",
+		}
+	]
+}

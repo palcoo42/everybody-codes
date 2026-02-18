@@ -1,0 +1,10 @@
+[workspace]
+resolver = "3"
+members = [
+ "stories/no_01_echoes_of_enigmatus/quest_01_eni_code"
+]
+
+[workspace.dependencies]
+puzzler = { git = "https://github.com/palcoo42/puzzler.git", branch = "master" }
+# puzzler = { path = "/home/dev/workspace/puzzler" }
+regex = { version = "1.*" }
